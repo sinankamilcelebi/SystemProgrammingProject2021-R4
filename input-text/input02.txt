@@ -1,0 +1,10 @@
+Bilgisayar açýldýðýnda, bir program çalýþmak istediðinde ilk olarak iþletim sisteminin 
+elinden geçer , iþletim sistemi hemen hemen bilgisayardaki butun aktiviteleri kontrol eder.
+Bunlarýn içersinde kimler giriþ yaptý ne kadar diski kullandý nasýl kullandý gibi veriler ve 
+ne kadar diðer bilgisayarlarla baðlantý kurdu gibi veriler vardýr.bu kullandýðýmýz iþletim 
+sistemine biz “unix” diyoruz. 
+
+Programlarýn iþletim sistemiyle konuþlarýnýn yoluna “sistem çaðrýlarý” diyoruz.Ve bu bir 
+çeþit yordam çaðrýsý gibi (aþaðýda göreceðiz) , fakat farklý bir yapýsý var.Bunun yapýsý 
+tam olarak bazý aktiviteleri kullanabilmek için iþletim sisteminin kaynaklarýný kullanmak 
+gibi...

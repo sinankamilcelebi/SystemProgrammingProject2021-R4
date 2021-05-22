@@ -1,0 +1,16 @@
+Thread lere genellikle "hafif iþlemler" denir. Unix tipik bir süreç, CPU durumu (yani kayýt),
+bellek (kod, globals, yýðýn ve) ve OS bilgisi (örneðin, açýk dosyalar, bir süreç kimliði, vb 
+gibi) oluþur, bir thread sisteminde “task” olarak adlandýrýlan daha büyük bir varlýk olan 
+“pod” yada "heavyweight process" bazen olmayabiliyor. 
+
+“Task” bir bellek (kod, globals, yýðýn),
+OS bilgisi ve threadlerden oluþur. Her thread bir yürütme birimi ve CPU (yani kayýt) ve 
+herhangi bir yýðýndan oluþur. Birden çok iþ parçacýðý, çoklu süreçleri benzer bir görev 
+içinde birden çok iþ parçacýðý dýþýnda ayný kodu, globals ve yýðýn olarak kullanmaktadýr. 
+Böylece Unix iki süreç üzerinden iletiþimkurabilir, biri sadece iþletim sistemi (dosyalar, 
+borular ya da prizler aracýlýðýyla gibi) üzerinden diðeri thread belleði üzerinden iletiþim 
+kurabiliyor. 
+
+Threadler zaman program konularý ile, ayný anda yürütülüyor varsayalým. 
+Diðer bir deyiþle her konu kendi CPU su üzerinden yürütmeli ve tüm konularý ayný bellek 
+paylaþýyormuþ gibi görünmelidir.

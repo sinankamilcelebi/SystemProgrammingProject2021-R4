@@ -1,0 +1,10 @@
+﻿Bir mikroişlemcide bulunan ALU birimi, bütün aritmetik ve mantıksal işlemlerin yapıldığı 
+yerdir. Temel bilgisayar sistemimizde tasarlanan ALU, çarpma ve giriş/çıkış işlemleri 
+haricinde, 16 bitlik veriler üzerinde işlem yapabilecek şekilde tasarlanmıştır. Kullanılan 
+kaydediciler 16 bitlik olduğundan, çarpma işleminde iki tane 8 bitlik sayı kullanılmıştır.
+Tasarlanan ALU dört bölümden oluşmaktadır;
+
+1. Çarpma ve bölme işlemleri hariç, diğer aritmetik işlemlerin yapıldığı bölüm
+2. Mantıksal işlemlerin yapıldığı bölüm
+3. Çarpma işleminin yapıldığı bölüm
+4. Bölme işleminin yapıldığı bölüm
